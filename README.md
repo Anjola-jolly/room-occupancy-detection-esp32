@@ -130,3 +130,16 @@ room-occupancy-detection-esp32/
 ├── README.md                    (Setup instructions)
 ├── room_occupancy_esp32.ino     (Main firmware)
 └── LICENSE                      (MIT License)
+## Repository Contents
+
+**1. room_occupancy_esp32.ino**
+- ESP32 firmware for real-time occupancy detection
+- Implements Random Forest decision logic
+- Includes WiFi connectivity and ThingSpeak integration
+- Annotated with detailed comments
+
+**2. occupancy_detection_ml_training.ipynb**
+- Google Colab notebook for ML model training
+- Trains 3 models: Decision Tree, Random Forest, Neural Network
+- Generates performance visualizations (confusion matrices, feature importance)
+- Includes dataset loading, preprocessing, and evaluation
